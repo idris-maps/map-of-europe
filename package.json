@@ -1,0 +1,20 @@
+{
+  "name": "Map_example_Europe",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "show": "watchify main.js -o public/js/script.js & node server.js"
+  },
+  "keywords": [
+    "GIS"
+  ],
+  "author": "idris-maps.com",
+  "license": "GPL",
+  "dependencies": {
+		"express": "~4.13.3",
+    "d3": "~3.5.6",
+    "node-jsdom": "~3.1.5"
+  }
+}
